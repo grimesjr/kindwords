@@ -3,6 +3,22 @@ body {
   margin: 0;
 }
 
+.backgroung {
+  position: relative;
+  height: 100vh;
+}
+.background:before {
+  background: url('./people.jpg') center / cover;
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+  opacity: 0.5;
+}
+
 .header {
   background: lightgrey;
   width: 100%;
@@ -15,14 +31,14 @@ body {
   border: 2px solid magenta;
 }
 
-.container {
+/* .background {
   background-image: url(./people.jpg);
   background-size: 100%;
   background: contain;
   opacity: 0.3;
   height: 100vh;
   border: 2px solid black;
-}
+} */
 
 .inner-container {
   width: 620px;

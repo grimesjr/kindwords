@@ -3,7 +3,8 @@ import './App.css';
 
 function App() {
   return (
-    <div className="background">
+    <div>
+      <div className="background"></div>
       <header className="header">
         <div>Kind Words</div>
       </header>
