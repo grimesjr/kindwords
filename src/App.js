@@ -3,10 +3,20 @@ import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <div>Hello</div>
+    <div className="background">
+      <header className="header">
+        <div>Kind Words</div>
       </header>
+      <div className="container">
+        <div className="inner-container">
+          <div className="map"></div>
+          <div className="input">
+            <form>
+              <input></input>
+            </form>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }
